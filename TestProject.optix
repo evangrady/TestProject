@@ -31,5 +31,13 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 1.0
+  9:
+   Uri: 'urn:FTOptix:RAEtherNetIP'
+   Module: FTOptix.RAEtherNetIP
+   Version: 2.0
  Nodes:
  - File: Nodes/TestProject.yaml

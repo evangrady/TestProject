@@ -1,0 +1,55 @@
+Name: Orginization
+Type: FolderType
+Children:
+- Name: PanelLoader1
+  Id: g=b4b08db149da1a987fa08cf1867539eb
+  Supertype: PanelLoader
+  ReferenceType: HasComponent
+  Children:
+  - Name: Panel
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":71,"Namespace":2}
+  - Name: CurrentPanel
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":6,"Namespace":2}
+  - Class: Reference
+    Target: ns=2;i=478
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+- Name: Panel1
+  Id: g=fdaf6896a613ec77f574aacfbc91198a
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
